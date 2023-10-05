@@ -1,12 +1,12 @@
 // ==UserScript==
 // @name         WhatsAppPhoneChecker
-// @namespace    http://tampermonkey.net/
+// @namespace    https://github.com/xjkuchao/public/
 // @version      0.1
 // @description  check phone number is on whatsapp or not
 // @author       tyler (xjkuchao@gmail.com)
 // @match        https://web.whatsapp.com
-// @downloadURL  https://raw.githubusercontent.com/xjkuchao/public/main/WhatsAppPhoneChecker.js
-// @updateURL    https://raw.githubusercontent.com/xjkuchao/public/main/WhatsAppPhoneChecker.js
+// @downloadURL  https://github.com/xjkuchao/public/raw/main/WhatsAppPhoneChecker.js
+// @updateURL    https://github.com/xjkuchao/public/raw/main/WhatsAppPhoneChecker.js
 // @grant        GM_xmlhttpRequest
 // @connect      api.bywdks.com
 // @require  	 https://code.jquery.com/jquery-3.7.1.js
