@@ -5,8 +5,8 @@
 // @description  check phone number is on whatsapp or not
 // @author       tyler (xjkuchao@gmail.com)
 // @match        https://web.whatsapp.com
-// @downloadURL  https://github.com/xjkuchao/public/raw/main/WhatsAppPhoneChecker.js
-// @updateURL    https://github.com/xjkuchao/public/raw/main/WhatsAppPhoneChecker.js
+// @downloadURL  https://github.com/xjkuchao/public/raw/main/WhatsAppPhoneChecker.user.js
+// @updateURL    https://github.com/xjkuchao/public/raw/main/WhatsAppPhoneChecker.user.js
 // @grant        GM_xmlhttpRequest
 // @connect      api.bywdks.com
 // @require  	 https://code.jquery.com/jquery-3.7.1.js
