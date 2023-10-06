@@ -48,7 +48,7 @@
     function check() {
         GM_xmlhttpRequest({
             method: "GET",
-            url: "https://api.bywdks.com/getNumber?source=whatsapp&prefix=63",
+            url: "https://api.bywdks.com/getNumber?source=whatsapp&prefix=0",
             headers: {
                 "Accept": "application/json, text/plain, */*"
             },
