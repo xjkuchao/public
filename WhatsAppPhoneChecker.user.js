@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         WhatsAppPhoneChecker
 // @namespace    https://github.com/xjkuchao/public/
-// @version      0.1
+// @version      0.2
 // @description  check phone number is on whatsapp or not
 // @author       tyler (xjkuchao@gmail.com)
 // @match        https://web.whatsapp.com
