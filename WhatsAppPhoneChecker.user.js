@@ -13,7 +13,7 @@
 // @require      https://gist.github.com/raw/2625891/waitForKeyElements.js
 // ==/UserScript==
 
-(async function() {
+(async function () {
     'use strict';
 
     function sleep(ms) {
@@ -39,7 +39,7 @@
                 "Accept": "application/json, text/plain, */*"
             },
             responseType: 'json',
-            onload: function(res) {
+            onload: function (res) {
                 console.log("post result", res.response);
             }
         });
@@ -53,11 +53,21 @@
                 "Accept": "application/json, text/plain, */*"
             },
             responseType: 'json',
-            onload: async function(res) {
+            onload: async function (res) {
                 console.log(res);
                 if (res.response.code != 0) {
                     console.log(res.response.message);
-                    setTimeout(check, 500);
+                    if (res.response.code == 400) {
+                        // lock failed, wait 300ms
+                        setTimeout(check, 300);
+                    } else if (res.response.code == 404) {
+                        // no more number, wait 30s
+                        setTimeout(check, 30000);
+                    } else {
+                        // unknow error, wait 5s
+                        setTimeout(check, 5000);
+                    }
+
                     return;
                 }
 
